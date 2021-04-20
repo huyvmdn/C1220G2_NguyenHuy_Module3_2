@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
+        .row:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        body {
+            background-color: #FFFFFF;
+        }
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 0px;
+        }
+
+        .header {
+            width: 100%;
+            height: 70px;
+            background: gray;
+            border: 1px;
+            border-bottom: #3f3f3f;
+            position: fixed;
+            display: flex;
+        }
+
+        #logo {
+            height: 100%;
+            width: 80px;
+            margin: auto;
+        }
+
+        #timkiem {
+            width: 100%;
+            height: 50px;
+            border-radius: 25px;
+        }
+
+        .canhgiua {
+            margin: auto;
+        }
+
+        .iconheader {
+            height: 60px;
+            width: auto;
+        }
+
+        .thanhtrai {
+            width: 300px;
+            height: 100%;
+            background-color: darkgrey;
+            left: 0;
+            position: fixed;
+        }
+
+        .thanhphai {
+            width: 300px;
+            height: 100%;
+            right: 0;
+            background-color: darkgrey;
+            position: fixed;
+        }
+        .dulieu {
+            height: 500px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="row" style="width: 100%">
+    <div class="thanhtrai">
+        <h1 style="margin-top: 200px">Tên tài khoản</h1>
+        <h1>Bạn bè</h1>
+        <h1>Gần đây nhất</h1>
+        <h1>Yêu thích</h1>
+        <h1>Nhóm</h1>
+    </div>
+
+    <div class="thanhphai" >
+        <h1 style="margin-top: 200px">Bạn bè 1</h1>
+        <h1>Bạn bè 2</h1>
+        <h1>Bạn bè 3</h1>
+        <h1>Bạn bè 4</h1>
+        <h1>Bạn bè 5</h1>
+        <h1>Bạn bè 6</h1>
+        <h1>Bạn bè 7</h1>
+        <h1>Bạn bè 8</h1>
+    </div>
+</div>
+
+</div>
+<div class="row header">
+    <div class="col-1 canhgiua">
+        <!--        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIxlcKRSmZNiInZ8VDFOsSIMEvC9QQrZZ7iUzNjxnqwXRxeD0d9T21cVpoCEKH1F507wY&usqp=CAU"-->
+        <!--             alt="lỗi hình ảnh" id="logo">-->
+
+        <img src="anh/logo.png" id="logo"></div>
+    <div class="col-2 canhgiua">
+        <input type="search" id="timkiem" placeholder="             Tìm kiến thông tin trên facebook">
+    </div>
+    <div class="col-6 canhgiua">
+        <div class="row">
+            <div class="col-1 "></div>
+            <div class="col-10 ">
+                <div class="col-2 "><img src="anh/nha.png" class="iconheader"></div>
+                <div class="col-2 "><img src="anh/tivi.png" class="iconheader"></div>
+                <div class="col-2 "><img src="anh/cho.png" class="iconheader"></div>
+                <div class="col-2 "><img src="anh/nhom.png" class="iconheader"></div>
+                <div class="col-2 "><img src="anh/game.png" class="iconheader"></div>
+            </div>
+            <div class="col-1 "></div>
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="row">
+            <div class="col-4"><h4>Tài khoản</h4></div>
+            <div class="col-4"><h4>Tin nhắn</h4></div>
+            <div class="col-4"><h4>Thông báo</h4></div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="row">
+        <div class="col-3 dulieu"></div>
+        <div class="col-6 dulieu " style="background-color: gray;height: 2000px">
+            <p style="text-align: center"><img src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.6435-0/p180x540/167043438_3844912635628093_6685725031620665244_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=9GQmhiOS9t8AX_Rb45j&_nc_ht=scontent.fsgn2-1.fna&tp=6&oh=b42f0cd0aa1cda8da48cc08117611af9&oe=6092F46D"
+                    alt="">
+                <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-0/p526x296/168845853_292054942285636_6919693717780788805_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=730e14&_nc_ohc=lSlJGlMOUoMAX8kd-AI&_nc_ht=scontent.fsgn2-6.fna&tp=6&oh=430e4016e77abf93a0a2a85d98907493&oe=60902A9A"
+                     alt="">
+                <img src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.6435-9/104168484_2576562969322677_7475087862588671810_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=dBMlZGSkntQAX_nuuS5&_nc_ht=scontent.fsgn2-1.fna&oh=44a3ab669d449045a0588041bd66af32&oe=60912574"
+                     alt="">
+
+            </p>
+
+        </div>
+        <div class="col-3 dulieu"></div>
+    </div>
+</body>
+</html>

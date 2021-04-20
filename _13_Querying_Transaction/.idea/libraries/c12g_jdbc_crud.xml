@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="c12g-jdbc-crud">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../du_lieu_quan_trong/c12g-jdbc-crud.zip!/c12g-jdbc-crud" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../du_lieu_quan_trong/c12g-jdbc-crud.zip!/c12g-jdbc-crud/src" />
+    </SOURCES>
+  </library>
+</component>

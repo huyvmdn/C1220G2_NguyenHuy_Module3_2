@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url("https://pro2-bar-s3-cdn-cf5.myportfolio.com/50fbdf91bdbc7efc41655f912122cd31/68aa55154ccc3eb9b6ceada8_rw_1920.jpg?h=6c5c7744fcf106b88fc8289635bb91c2");
+        }
+
+
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #6b9876;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+            color: #FFFFFF;
+            font-family: 'Times New Roman', sans-serif;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .row:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 5px;
+        }
+
+        @media all and (max-width: 600px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+
+        #menu {
+            width: 100%;
+            height: 70px;
+            background-color: #6b9876;
+            position: fixed;
+        }
+
+        .colormenu {
+            background-color: #6b9876;
+        }
+
+        .danhmuc {
+            margin: auto;
+        }
+
+        #timkiem {
+            width: 100%;
+            height: 50px;
+            border-radius: 25px;
+            margin: auto;
+        }
+
+        .noidung {
+            background-color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+
+<div class="row" id="menu">
+    <div class="col-3"><img style="background-color: #FFFFFF; width: 100px; margin-left: 30px"
+                            src="https://truyencv.com/templates/truyencv-green/assets/images/logo.png" alt=""></div>
+    <div class="col-3" style="display: flex">
+
+        <div class="dropdown danh muc">
+            <h3 style="font-family: 'Times New Roman', sans-serif;color: white">Danh mục</h3>
+            <div class="dropdown-content">
+                <p class="colormenu">Truyện mới</p>
+                <hr>
+                <p class="colormenu">Truyện đủ bộ</p>
+                <hr>
+                <p class="colormenu">Truyện theo tác giả</p>
+                <hr>
+            </div>
+        </div>
+        <div class="dropdown danhmuc">
+            <h3 style="font-family: 'Times New Roman', sans-serif;color: white; margin-right: 50px">Thể loại</h3>
+            <div class="dropdown-content">
+                <p class="colormenu">Truyện linh dị</p>
+                <hr>
+                <p class="colormenu">Truyện tiên hiệp</p>
+                <hr>
+                <p class="colormenu">Truyện kiếm hiệp</p>
+                <hr>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-3" style="display: flex"><input type="search" id="timkiem"
+                                                    placeholder="      Tìm truyện hoặc tác giả"></div>
+    <div class="col-3" style="display: flex">
+        <h3 style="font-family: 'Times New Roman', sans-serif;color: white; float: left; margin-left: 20px">Đăng
+            nhập</h3>
+        <h3 style="font-family: 'Times New Roman', sans-serif;color: white; float: left; margin-left: 20px">|</h3>
+        <h3 style="font-family: 'Times New Roman', sans-serif;color: white; float: left;margin-left: 20px">Đăng ký</h3>
+
+    </div>
+</div>
+<div class="row" style="height: 300px">
+
+</div>
+<div class="row" >
+    <div class="col-3 "></div>
+    <div class="col-2 noidung" style="height: 1200px">
+        <h3>BTC đề cử </h3>
+        <p style="text-align: center">
+        <img src="https://truyencv.com/images/poster/cuc-pham-nhan-vat-phan-dien-dao-tu-poster-20210216-200x300.jpg" alt="ok">
+        </p>
+        <h4 style="text-align: center">Tiên giới thứ nhất nội ứng</h4>
+        <p style="text-align: center">
+            <img src="https://truyencv.com/images/poster/tien-gioi-thu-nhat-noi-ung-poster-20201119-200x300.jpg" alt="ok">
+        </p>
+        <h4 style="text-align: center">Cực phẩm nhân vật phản diện</h4>
+        <p style="text-align: center">
+            <img src="https://truyencv.com/images/poster/toan-chuc-nghe-thuat-gia-poster-20201009-200x300.jpg" alt="ok">
+        </p>
+        <h4 style="text-align: center">Toàn chức nghệ thuật gia</h4>
+    </div>
+    <div class="col-1 noidung" style="height: 1200px">>
+        <h5>Trẫm Lại Không Muốn Làm Hoàng Đế</h5>
+        <p>
+            Sống lại một lần, vốn định an an ổn ổn qua cả đời, thế nhưng đều muốn buộc hắn làm hoàng đế... .</p>
+        <h5>Vô Địch Đại Lão Sắp Xuất Thế</h5>
+        <p>Lộ Nhất Bình là vị tu sĩ Thượng Cổ, thấy tận mắt trong Chư Thần đại chiến, vô số cường đại Thần Linh vẫn</p>
+        <h5>Khí Vũ Trụ</h5>
+        <p>Địa Cầu nguyên khí khôi phục, nhưng đây thật không phải cố sự Địa Cầu linh khí khôi phục, Mà là một cố sự</p>
+    </div>
+    <div class="col-1 noidung" style="height: 1200px">
+        <h5>Ta Tu Luyện Võ Học Có Thể Bạo Kích</h5>
+        <p>
+            Đại lão: Tiểu tử tu luyện như thế thuần thục, lại xem dung mạo, chỉ có ta ngày này chín thành Ngô Ngạn Tổ có thể</p>
+        <h5>Đánh Dấu Ngàn Năm Ta Làm Sao Thành Nhân</h5>
+        <p>Sở Hà xuyên qua đến Đại Hoang thế giới, Hạ tộc, trở thành trong Lâm phủ một cái thân phận thấp nhỏ tạp dịch,</p>
+        <h5>KMa Môn Bại Hoại</h5>
+        <p>Khi sư diệt tổ, giết hại đồng môn coi là Đạo môn bại hoại! Không tu Phật pháp, lũ phạm năm giới coi là Phật</p>
+    </div>
+
+    <div class="col-2 noidung" style="height: 1200px">
+        <h3>Người đọc đề cử </h3>
+        <p style="text-align: center">
+            <img src="https://static.cdnno.com/poster/ta-muon-lam-thien-dao/150.jpg?1596039779" alt="ok">
+        </p>
+        <h5>1.Ta muốn làm thiên đao</h5>
+        <h5>2. Toàn chức pháp sư dị bản</h5>
+        <h5>3. Đế chế Đại Việt</h5>
+        <h5>4. Hyền Lục</h5>
+        <h5>4. Game xưng bá dị giới</h5>
+    </div>
+
+    </div>
+    <div class="col-3 ">
+
+</div>
+
+</body>
+</html>

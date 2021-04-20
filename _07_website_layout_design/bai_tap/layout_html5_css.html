@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 1px;
+        }
+
+        .tomau > div {
+            background-color: blue;
+            color: white;
+        }
+
+        .menu:hover {
+            background-color: red;
+            color: white;
+        }
+
+        .tieude {
+            height: 100px;
+        }
+
+        .noidung {
+            height: 300px;
+        }
+
+        .khunghienthi {
+            margin-top: 1px;
+            height: 602px;
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="col-12">
+        <h2 class="tomau tieude">Header</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <ul class="tieude tomau">
+            <li>News</li>
+            <li>Sports</li>
+            <li>Weather</li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-8">
+        <div class="row">
+            <div class="col-12">
+                <section class="tomau noidung">
+                    <article>
+                        <h2>News Article</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi
+                            condimentum est nibh, et consectetur tortor feugiat at.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi
+                            condimentum est nibh, et consectetur tortor feugiat at.</p>
+                    </article>
+                </section>
+            </div>
+            <div class="col-12">
+                <h2 class="tomau noidung">Article</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-4" style="">
+        <div class="tomau khunghienthi">
+            <h2>Asise</h2>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <h2 class="tomau tieude">footer</h2>
+    </div>
+</div>
+</body>
+</html>
